@@ -675,15 +675,17 @@ document.querySelector(".overlay2>h1").innerHTML = clutter;
 
 gsap.to(".overlay2 h1 span", {
     opacity: 0,
-    stagger:.8,
+    stagger:{
+        each:1,
+    },
     scrollTrigger: {
 
         Scroller: "#can",
         trigger: ".overlay2 h1 span",
-        start: "550 10%",
+        start: "550 8%",
         end: "550 0%",
         // markers:true,
-        scrub: true,
+        scrub: 3,
         ease:"none",
     }
 })

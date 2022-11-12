@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 body,
@@ -63,7 +64,7 @@ pointer-events: none;
     color: white;
 }
 #text>h1{
-    font-family: play;
+    font-family: 'Playfair Display', serif;
     font-size: 5vw;
     font-weight: 100;
 
@@ -197,7 +198,7 @@ margin-top: -5VW;
 }
 
 #right>h1{
-    font-family: play;
+    font-family: 'Playfair Display', serif;
     font-size: 3vw;
     font-weight: 500;
     width: 100%;
@@ -306,7 +307,7 @@ margin-top: -5VW;
     top: 45%;
     font-size: 3vw;
     width: 20%;
-    font-family: Playfair Display;
+     font-family: 'Playfair Display', serif;
     transform: translate(0%, -50%);
 }
 
@@ -366,7 +367,7 @@ canvas {
     line-height: 1.2;
     margin-top: 2%;
     margin-left: 10%;
-    font-family: Playfair Display;
+     font-family: 'Playfair Display', serif;
     text-align: center;
 
 }
@@ -375,7 +376,7 @@ canvas {
     font-size: 1.2vw;
     margin-top: 15%;
     margin-bottom: 2%;
-    font-family: Playfair Display;
+     font-family: 'Playfair Display', serif;
     text-align: center;
 
 }
@@ -383,7 +384,7 @@ canvas {
 #h2p2 {
     font-size: 3.8vw;
     line-height: 1.2;
-    font-family: Playfair Display;
+     font-family: 'Playfair Display', serif;
     text-align: center;
     /* background-color: red; */
 
@@ -407,7 +408,7 @@ canvas {
     font-size: 1.2vw;
     /* margin-top: 17%; */
     margin-bottom: 2%;
-    font-family: Playfair Display;
+     font-family: 'Playfair Display', serif;
     text-align: center;
 
 }
@@ -416,7 +417,7 @@ canvas {
     font-size: 3.8vw;
     line-height: 1.2;
     margin: 3% 0%;
-    font-family: Playfair Display;
+     font-family: 'Playfair Display', serif;
     text-align: center;
 
 }
@@ -511,7 +512,7 @@ canvas {
     background-color: rgb(255, 255, 255);
     text-align: center;
     font-size: 5vw;
-    font-family: Playfair Display;
+     font-family: 'Playfair Display', serif;
     margin-top: 0vw;
     line-height: .6;
     font-weight: 700;
@@ -546,6 +547,8 @@ canvas {
     position: absolute;
     z-index: 999;
     display: flex;
+    font-size: 1.4vw;
+    font-weight: 500;
     align-items: center;
     padding: 15%;
     text-align: center;
@@ -575,7 +578,7 @@ canvas {
     width:75%;
     font-size: 4vw;
     line-height: 1;
-    font-family: play;
+    font-family: 'Playfair Display', serif;
     font-weight: 100;
     margin-top: 3vw;
 }
@@ -587,7 +590,7 @@ canvas {
     position: absolute;
     color: white;
     z-index: 99;
-    font-family: play;
+    font-family: 'Playfair Display', serif;
     font-weight: 100;
     font-size: 3vw;
 width: 60%;
@@ -650,7 +653,7 @@ color: #eab4cd;
 #l9>h1{
     /* width: 80%; */
     font-size: 4vw;
-    font-family: play;
+    font-family: 'Playfair Display', serif;
     line-height: 1.1;
     margin-top: 1vw;
 }
