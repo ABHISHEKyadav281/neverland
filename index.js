@@ -19,7 +19,7 @@ function menu(){
             document.querySelector("#hamburger>.line:nth-child(2)").style.transform = `rotate(0deg) translateY(0px) translateX(0px)`
             document.querySelector("#hamburger>.line:nth-child(1)").style.backgroundColor = "white"
             document.querySelector("#hamburger>.line:nth-child(2)").style.backgroundColor = "white"
-        document.querySelector("#nav").style.top = "-100%"
+        document.querySelector("#nav").style.top = "-110%"
         
 
             flag=0 
